@@ -1,11 +1,54 @@
+#wrap{
+	    background-position: center center;
+	    background-attachment: fixed; 
+        background:url(../img/back1.jpg) ;
+        animation: fateimg 100s linear infinite;
+    }
+    @keyframes fateimg{
+        0%{background: url(../img/back1.jpg);opacity: 1;background-position: center center;background-attachment: fixed; }
+        11%{background: url(../img/back1.jpg);opacity: 1;background-position: center center;background-attachment: fixed; }
+        12%{background: url(../img/back1.jpg);opacity: 0;background-position: center center;background-attachment: fixed; }
+        13%{background: url(../img/back2.jpg);opacity: 1;background-position: center center;background-attachment: fixed;}
+        23%{background: url(../img/back2.jpg);opacity: 1;background-position: center center;background-attachment: fixed;}
+        24%{background: url(../img/back2.jpg);opacity: 0;background-position: center center;background-attachment: fixed;}
+        25%{background: url(../img/back3.jpg);opacity: 1;background-position: center center;background-attachment: fixed;}
+        35%{background: url(../img/back3.jpg);opacity: 1;background-position: center center;background-attachment: fixed;}
+        36%{background: url(../img/back3.jpg);opacity: 0;background-position: center center;background-attachment: fixed;}
+        37%{background: url(../img/back4.jpg);opacity: 1;background-position: center center;background-attachment: fixed;}
+        47%{background: url(../img/back4.jpg);opacity: 1;background-position: center center;background-attachment: fixed;}
+        48%{background: url(../img/back4.jpg);opacity: 0;background-position: center center;background-attachment: fixed;}
+        49%{background: url(../img/back5.jpg);opacity: 1;background-position: center center;background-attachment: fixed;}
+        59%{background: url(../img/back5.jpg);opacity: 1;background-position: center center;background-attachment: fixed;}
+        60%{background: url(../img/back5.jpg);opacity: 0;background-position: center center;background-attachment: fixed;}
+        61%{background: url(../img/back6.jpeg);opacity: 1;background-position: center center;background-attachment: fixed;}
+        72%{background: url(../img/back6.jpeg);opacity: 1;background-position: center center;background-attachment: fixed;}
+        73%{background: url(../img/back6.jpeg);opacity: 0;background-position: center center;background-attachment: fixed;}
+        74%{background: url(../img/back7.jpg);opacity: 1;background-position: center center;background-attachment: fixed;}
+        85%{background: url(../img/back7.jpg);opacity: 1;background-position: center center;background-attachment: fixed;}
+        86%{background: url(../img/back7.jpg);opacity: 0;background-position: center center;background-attachment: fixed;}
+        87%{background: url(../img/back8.jpg);opacity: 1;background-position: center center;background-attachment: fixed;}
+        98%{background: url(../img/back8.jpg);opacity: 1;background-position: center center;background-attachment: fixed;}
+        99%{background: url(../img/back8.jpg);opacity: 0;background-position: center center;background-attachment: fixed;}
+        100%{background: url(../img/back1.jpg);opacity: 1;background-position: center center;background-attachment: fixed;}
+    }
+
+
+
+
+
+
 a{
 	color:dimgray;
 }
-#header
+#header{
+	background: rgba(0,0,0,0.4);
+}
+#header nav
 {
+	opacity: 0.9;
 	width: 100%;
 	height: 50px;
-	background:#CCCCCC ;
+	background:linear-gradient(to right,pink,coral) ;
 }
 
 #header nav ul li{
@@ -29,7 +72,6 @@ a{
 }
 .banner{
 	height: 600px;
-    background: lightcoral;
 }
 .clear_fix:after{
 	content: "";
@@ -38,10 +80,10 @@ a{
 }
 
 .banner .inner{
+	color: #F08080;
 	max-width: 300px;
     height: 240px;
 	margin:0 auto;
-	background-color: darkgray;
 	position:relative;
     top: 160px;
     text-align: center;	
@@ -85,11 +127,125 @@ a{
 	color: white;
 }
 
-#content{
-	width: 100%;
-	padding-bottom: 1px;
-	float: left;
-	height:500px ;
-	background-color: #CCCCCC;
+.secton1{
+	opacity: 0.9;
+	background: cadetblue;
+	color: white;
+	position: relative;
+	padding-top: 30px;
+	text-align: center;
 	
+}
+.secton1 .wrap{
+	max-width: 700px;
+	margin: 0 auto;
+}
+.secton1 .wrap .text h2{
+	letter-spacing: 4px;
+	font-size: 70px;
+	padding-bottom: 50px;
+}
+.secton1 .wrap .text p{
+	font-size: 20px;
+	padding-bottom: 20px;
+	letter-spacing: 2px;
+}
+.secton1 .wrap .text .line{
+	width:100%;
+	height:2px;
+	background-color: darkgrey;
+	margin:25px auto;
+}
+.secton1 .wrap .icon .pic{
+	width: 150px;
+	height:150px;
+	display:inline-block;
+	margin:40px 30px ;
+	margin-bottom: 80px;
+}
+.secton1 .wrap .icon span img{
+	width:100%;
+	height:100%;
+	
+}
+.secton1 .wrap .icon span a{
+	font-size: 20px;
+	color: white;
+	letter-spacing: 2px;
+}
+.secton1 .wrap .icon span a:hover{
+	color: darkgrey;
+	transition: 0.5s;
+}
+.section2{
+	opacity: 0.9;
+	background-color: slategray;
+	height:379px;
+	color: white;
+	position: relative;
+	width:100%;
+}
+
+.section2 .sec .secimg{
+	width: 40%;
+	
+}
+.section2 .sec .secimg img{
+	width:100%;
+	height: 101%;
+}
+.sec>div{
+	float: left;
+	
+}
+.section2 .sec .sectext{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.section2 .sec .sectext h2{
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+.section2 .sec .sectext p{
+	font: "微软雅黑";
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin-bottom: 5px;
+}
+
+
+
+
+.section3{
+	opacity: 0.9;
+	background-color: #696969;
+	color: white;
+	position: relative;
+	width:100%;
+}
+.section3 .third .thirdimg{
+	width: 40%;
+	
+}
+.section3 .third .thirdimg img{
+	width:100%;
+	height: 100%;
+}
+.third>div{
+	float:right;
+	
+}
+.section3 .third .thirdtext{
+	margin-right: 400px;
+	margin-top: 30px;
+}
+.section3 .third .thirdtext h2{
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+.section3 .third .thirdtext p{
+	font: "微软雅黑";
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin-bottom: 5px;
 }
