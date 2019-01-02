@@ -1,0 +1,95 @@
+a{
+	color:dimgray;
+}
+#header
+{
+	width: 100%;
+	height: 50px;
+	background:#CCCCCC ;
+}
+
+#header nav ul li{
+	float: right;
+	display: inline-block;
+	margin-right:2%;
+	line-height: 50px;
+}
+
+#header nav .logo{
+	float: left;
+	margin-left: 2%;
+	
+}
+.logo a{
+	font-family: "宋体";
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 2px;
+}
+.banner{
+	height: 600px;
+    background: lightcoral;
+}
+.clear_fix:after{
+	content: "";
+	display: block;
+    clear: both;	
+}
+
+.banner .inner{
+	max-width: 300px;
+    height: 240px;
+	margin:0 auto;
+	background-color: darkgray;
+	position:relative;
+    top: 160px;
+    text-align: center;	
+}
+.banner .inner .line{
+	width: 300px;
+	height: 2px;
+	background-color: white;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	
+}
+.banner .inner h1{
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+.banner .inner p{
+	font-size: 20px;
+	line-height: 50px;
+	letter-spacing: 1px;
+}
+.banner .inner button{
+	background-color: #F08080;
+	color: white;
+	border-radius: 8px;
+	padding: 10px 40px;
+	border: none;
+    outline: none;
+	margin: 0 auto;
+	transition: 0.5s;
+}
+.banner .inner button:hover{
+	
+	background-color: coral;
+	cursor: pointer;
+	transform: scale(1.2,1.2);
+	
+	}
+.banner .inner .more{
+	padding-top: 160px;
+	color: white;
+}
+
+#content{
+	width: 100%;
+	padding-bottom: 1px;
+	float: left;
+	height:500px ;
+	background-color: #CCCCCC;
+	
+}
