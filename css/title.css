@@ -4,11 +4,31 @@ html {
 body {
     height: 100%;
 }
-.banner {
+
+ .banner {
     list-style: none;
     z-index: 1;
 }
-.banner li span {
+.banner li h4{
+	max-width: 500px;
+	position:fixed;
+    text-align:center;
+    z-index: 2;
+    padding-bottom: 50px;
+    padding-top: 200px;
+    margin: auto auto;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    font-size:1.8em;
+    font-family: "monotype corsiva", sans-serif;
+    text-transform: uppercase;
+    color:#F08080;
+    -webkit-animation: contentAnimation 96s linear infinite 0s;
+    -moz-animation: contentAnimation 96s linear infinite 0s;
+    animation: contentAnimation 96s linear infinite 0s;
+}
+ .banner li span {
     width: 100%;
     height: 100%;
     position:fixed;
@@ -21,7 +41,7 @@ body {
     opacity: 0;
     z-index: 0;
     -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+    backface-visibility:hidden;
     -webkit-animation: imageAnimation 48s linear infinite 0s;
     -moz-animation: imageAnimation 48s linear infinite 0s;
     animation: imageAnimation 48s linear infinite 0s;
@@ -98,6 +118,45 @@ body {
     -moz-animation-delay: 42s;
     animation-delay: 42s;
 }
+
+.banner li:nth-child(9) h4{
+	-webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    animation-delay: 6s;
+}
+.banner li:nth-child(10) h4{
+	-webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    animation-delay: 18s;
+}
+.banner li:nth-child(11) h4{
+	-webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    animation-delay: 30s;
+	
+}
+.banner li:nth-child(12) h4{
+	-webkit-animation-delay: 42s;
+    -moz-animation-delay: 42s;
+    animation-delay: 42s;
+}
+.banner li:nth-child(13) h4{
+	-webkit-animation-delay:54s;
+    -moz-animation-delay: 54s;
+    animation-delay: 54s;
+}
+.banner li:nth-child(14) h4{
+	-webkit-animation-delay: 66s;
+    -moz-animation-delay: 66s;
+    animation-delay: 66s;
+}
+.banner li:nth-child(15) h4{
+	-webkit-animation-delay: 78s;
+    -moz-animation-delay: 78s;
+    animation-delay: 78s;
+}
+
+
 @-webkit-keyframes imageAnimation {
     0% {
     	transform: scale(1,1);
@@ -184,10 +243,12 @@ body {
     	transform: scale(0.9,0.9);
         opacity: 1;
     }
+     
     37.5% {
     	transform: scale(1,1);
         opacity: 0;
     }
+    
     100% {
         opacity: 0;
     }
@@ -209,7 +270,9 @@ body {
     	transform: scale(1,1);
         opacity: 0;
     }
+ 
     100% {
+    	
         opacity: 0;
     }
 }
@@ -230,10 +293,69 @@ body {
     	transform: scale(1,1);
         opacity: 0;
     }
+   
     100% {
         opacity: 0;
     }
 }
 .no-cssanimations .banner li span {
     opacity: 1;
+}
+
+
+@keyframes contentAnimation{
+	 0% {
+    	transform: scale(1,1);
+        opacity: 0;
+        -webkit-animation-timing-function: ease-in;
+        -moz-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+    5% {
+    	transform: scale(1.2,1.2);
+        opacity: 1;
+        -webkit-animation-timing-function: ease-out;
+        -moz-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+    10% {
+    
+    	transform: scale(1.4,1.4);
+        opacity: 1;
+    }
+    12.5%{
+    	transform: scale(1.5,1.5);
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+#btn{
+	z-index: 4;
+	margin-top:630px;
+	width: 100%;
+}
+#btn .button {
+	background-color: #F08080;
+	color: white;
+	width: 100%;
+	/*border-radius: 8px;*/
+	padding: 10px 40px;
+	border: none;
+    outline: none;
+	margin: 100 auto;
+	transition: 0.5s;
+}
+ #btn .button:hover{
+	
+	background-color: coral;
+	cursor: pointer;
+	transform: scale(1.2,1.2);
+	
+	}
+
+#music{
+	margin-top: 10px;
+
 }
