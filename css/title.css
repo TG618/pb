@@ -6,14 +6,15 @@ body {
 }
 
  .banner {
+    position:fixed;
     list-style: none;
-    z-index: 1;
+    z-index: -2;
 }
 .banner li h4{
 	max-width: 400px;
 	position:fixed;
     text-align:center;
-    z-index: 2;
+    z-index: -3;
     padding-bottom: 50px;
     padding-top: 120px;
     margin: auto auto;
@@ -39,7 +40,7 @@ body {
     background-position: 50% 50%;
     background-repeat: none;
     opacity: 0;
-    z-index: 0;
+    z-index: -4;
     -webkit-backface-visibility: hidden;
     backface-visibility:hidden;
     -webkit-animation: imageAnimation 48s linear infinite 0s;
@@ -49,7 +50,7 @@ body {
 .banner li h3 {
     position:fixed;
     text-align: center;
-    z-index: 2;
+    z-index: -3;
     padding-bottom: 300px;
     left: 0;
     right: 0;
