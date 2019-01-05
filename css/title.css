@@ -6,18 +6,12 @@ body {
 }
 
  .banner {
-<<<<<<< HEAD
  	position: fixed;
     list-style: none;
     z-index: -4;
-=======
-    position:fixed;
-    list-style: none;
-    z-index: -2;
->>>>>>> 95cdad82b37c9ed95800aab6805cd8d7a2aa97e3
 }
 .banner li h4{
-	max-width: 400px;
+	max-width: 500px;
 	position:fixed;
     text-align:center;
     z-index: -3;
@@ -46,11 +40,7 @@ body {
     background-position: 50% 50%;
     background-repeat: none;
     opacity: 0;
-<<<<<<< HEAD
     z-index: -5;
-=======
-    z-index: -4;
->>>>>>> 95cdad82b37c9ed95800aab6805cd8d7a2aa97e3
     -webkit-backface-visibility: hidden;
     backface-visibility:hidden;
     -webkit-animation: imageAnimation 48s linear infinite 0s;
@@ -60,7 +50,7 @@ body {
 .banner li h3 {
     position:fixed;
     text-align: center;
-    z-index: -3;
+    z-index: 2;
     padding-bottom: 300px;
     left: 0;
     right: 0;
@@ -316,14 +306,14 @@ body {
 
 @keyframes contentAnimation{
 	 0% {
-    	transform: scale(0.6,0.6);
+    	transform: scale(1,1);
         opacity: 0;
         -webkit-animation-timing-function: ease-in;
         -moz-animation-timing-function: ease-in;
         animation-timing-function: ease-in;
     }
     5% {
-    	transform: scale(0.8,0.8);
+    	transform: scale(1.2,1.2);
         opacity: 1;
         -webkit-animation-timing-function: ease-out;
         -moz-animation-timing-function: ease-out;
@@ -331,11 +321,11 @@ body {
     }
     10% {
     
-    	transform: scale(1,1);
+    	transform: scale(1.4,1.4);
         opacity: 1;
     }
     12.5%{
-    	transform: scale(1.1,1.1);
+    	transform: scale(1.5,1.5);
         opacity: 0;
     }
     100% {
@@ -351,7 +341,7 @@ body {
     justify-content: center;
 }
 #music .musicell{
-	z-index:1;
+	z-index: 1;
 	width: 340px;
 	
 }
