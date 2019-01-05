@@ -351,6 +351,7 @@ body {
     justify-content: center;
 }
 #music .musicell{
+	z-index:1;
 	width: 340px;
 	
 }
