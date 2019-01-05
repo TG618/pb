@@ -6,14 +6,15 @@ body {
 }
 
  .banner {
+ 	position: fixed;
     list-style: none;
-    z-index: 1;
+    z-index: -4;
 }
 .banner li h4{
 	max-width: 500px;
 	position:fixed;
     text-align:center;
-    z-index: 2;
+    z-index: -3;
     padding-bottom: 50px;
     padding-top: 120px;
     margin: auto auto;
@@ -39,7 +40,7 @@ body {
     background-position: 50% 50%;
     background-repeat: none;
     opacity: 0;
-    z-index: 0;
+    z-index: -5;
     -webkit-backface-visibility: hidden;
     backface-visibility:hidden;
     -webkit-animation: imageAnimation 48s linear infinite 0s;
@@ -331,31 +332,18 @@ body {
         opacity: 0;
     }
 }
-#btn{
-	z-index: 4;
-	margin-top:630px;
-	width: 100%;
-}
-#btn .button {
-	background-color: #F08080;
-	color: white;
-	width: 100%;
-	/*border-radius: 8px;*/
-	padding: 10px 40px;
-	border: none;
-    outline: none;
-	margin: 100 auto;
-	transition: 0.5s;
-}
- #btn .button:hover{
-	
-	background-color: coral;
-	cursor: pointer;
-	transform: scale(1.2,1.2);
-	
-	}
 
 #music{
 	margin-top: 10px;
-
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#music .musicell{
+	width: 340px;
+	
+}
+#music .textcell{
+	
 }
