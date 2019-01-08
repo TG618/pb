@@ -5,10 +5,4 @@ $(function(){
 		$('music').css("width",divwidth+"px");
 	})
 })
-$(function(){
-	$(window).resize(function(){
-		var cliheight=document.body.clientHeight;
-		var divheight=cliheight-10;
-		$('text .textcell').css("height",divheight+"px");
-	})
-})
+
