@@ -5,19 +5,13 @@ body {
     height: 100%;
 }
 
- .banner {
-<<<<<<< HEAD
+.banner {
  	position: fixed;
     list-style: none;
     z-index: -4;
-=======
-    position:fixed;
-    list-style: none;
-    z-index: -2;
->>>>>>> 95cdad82b37c9ed95800aab6805cd8d7a2aa97e3
 }
-.banner li h4{
-	max-width: 400px;
+/*.banner li h4{
+	width: 500px;
 	position:fixed;
     text-align:center;
     z-index: -3;
@@ -34,8 +28,8 @@ body {
     -webkit-animation: contentAnimation 96s linear infinite 0s;
     -moz-animation: contentAnimation 96s linear infinite 0s;
     animation: contentAnimation 96s linear infinite 0s;
-}
- .banner li span {
+}*/
+.banner li span {
     width: 100%;
     height: 100%;
     position:fixed;
@@ -46,11 +40,7 @@ body {
     background-position: 50% 50%;
     background-repeat: none;
     opacity: 0;
-<<<<<<< HEAD
     z-index: -5;
-=======
-    z-index: -4;
->>>>>>> 95cdad82b37c9ed95800aab6805cd8d7a2aa97e3
     -webkit-backface-visibility: hidden;
     backface-visibility:hidden;
     -webkit-animation: imageAnimation 48s linear infinite 0s;
@@ -60,7 +50,7 @@ body {
 .banner li h3 {
     position:fixed;
     text-align: center;
-    z-index: -3;
+    z-index: 2;
     padding-bottom: 300px;
     left: 0;
     right: 0;
@@ -129,7 +119,7 @@ body {
     -moz-animation-delay: 42s;
     animation-delay: 42s;
 }
-
+/*
 .banner li:nth-child(9) h4{
 	-webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
@@ -166,7 +156,7 @@ body {
     -moz-animation-delay: 78s;
     animation-delay: 78s;
 }
-
+*/
 
 @-webkit-keyframes imageAnimation {
     0% {
@@ -316,14 +306,12 @@ body {
 
 @keyframes contentAnimation{
 	 0% {
-    	transform: scale(0.6,0.6);
         opacity: 0;
         -webkit-animation-timing-function: ease-in;
         -moz-animation-timing-function: ease-in;
         animation-timing-function: ease-in;
     }
     5% {
-    	transform: scale(0.8,0.8);
         opacity: 1;
         -webkit-animation-timing-function: ease-out;
         -moz-animation-timing-function: ease-out;
@@ -331,11 +319,9 @@ body {
     }
     10% {
     
-    	transform: scale(1,1);
         opacity: 1;
     }
     12.5%{
-    	transform: scale(1.1,1.1);
         opacity: 0;
     }
     100% {
@@ -351,9 +337,99 @@ body {
     justify-content: center;
 }
 #music .musicell{
+	z-index: 1;
 	width: 340px;
 	
 }
-#music .textcell{
+#text .textcell{
+	color: #F08080;
+ font-family: "黑体";
+ width: 500px;
+ font-size: 50px;
+ z-index: -1;
+ position: absolute;
+ top:100px;
+ text-align: center;
+}
+#text{
+	z-index: -4;
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+#text .textcell{
+/*	background-color:#eff7ff;*/
+    background: url(../img/textcell.png);
+    background-position: center;
+	opacity: 0.8;
+	width: 70%;
+/*	border: #96c2f1 solid 2px;*/
+    border-radius: 10px;
+    height: 500px;
+    padding-top: 5%;
+}
+
+#text .textbanner li h4{
+	max-width: 50%;
+	position:fixed;
+    text-align:center;
+    z-index: -3;
+    padding-bottom: 50px;
+    padding-top: 4%;
+    margin: auto auto;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    font-size:0.5em;
+    font-family: "monotype corsiva", sans-serif;
+    text-transform: uppercase;
+    color:#F08080;
+    -webkit-animation: contentAnimation 96s linear infinite 0s;
+    -moz-animation: contentAnimation 96s linear infinite 0s;
+    animation: contentAnimation 96s linear infinite 0s;
+}
+#text .textbanner li:nth-child(1) h4{
+	-webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    animation-delay: 6s;
 	
+}
+#text .textbanner li:nth-child(2) h4{
+	-webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    animation-delay: 18s;
+}
+#text .textbanner li:nth-child(3) h4{
+	-webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    animation-delay: 30s;
+	
+}
+#text .textbanner li:nth-child(4) h4{
+	-webkit-animation-delay: 42s;
+    -moz-animation-delay: 42s;
+    animation-delay: 42s;
+}
+#text .textbanner li:nth-child(5) h4{
+	-webkit-animation-delay:54s;
+    -moz-animation-delay: 54s;
+    animation-delay: 54s;
+}
+#text .textbanner li:nth-child(6) h4{
+	-webkit-animation-delay: 66s;
+    -moz-animation-delay: 66s;
+    animation-delay: 66s;
+}
+#text .textbanner li:nth-child(7) h4{
+	-webkit-animation-delay: 78s;
+    -moz-animation-delay: 78s;
+    animation-delay: 78s;
+}
+#text .textbanner li:nth-child(8) h4{
+	-webkit-animation-delay: 90s;
+    -moz-animation-delay: 90s;
+    animation-delay: 90s;
 }
