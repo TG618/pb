@@ -5,13 +5,22 @@ body {
     height: 100%;
 }
 
+<<<<<<< HEAD
 .banner {
+=======
+ .banner {
+>>>>>>> 6c6d879fabca16c671dd9a77a12242cfb3624715
  	position: fixed;
     list-style: none;
     z-index: -4;
 }
+<<<<<<< HEAD
 /*.banner li h4{
 	width: 500px;
+=======
+.banner li h4{
+	max-width: 500px;
+>>>>>>> 6c6d879fabca16c671dd9a77a12242cfb3624715
 	position:fixed;
     text-align:center;
     z-index: -3;
@@ -306,12 +315,20 @@ body {
 
 @keyframes contentAnimation{
 	 0% {
+<<<<<<< HEAD
+=======
+    	transform: scale(1,1);
+>>>>>>> 6c6d879fabca16c671dd9a77a12242cfb3624715
         opacity: 0;
         -webkit-animation-timing-function: ease-in;
         -moz-animation-timing-function: ease-in;
         animation-timing-function: ease-in;
     }
     5% {
+<<<<<<< HEAD
+=======
+    	transform: scale(1.2,1.2);
+>>>>>>> 6c6d879fabca16c671dd9a77a12242cfb3624715
         opacity: 1;
         -webkit-animation-timing-function: ease-out;
         -moz-animation-timing-function: ease-out;
@@ -319,9 +336,17 @@ body {
     }
     10% {
     
+<<<<<<< HEAD
         opacity: 1;
     }
     12.5%{
+=======
+    	transform: scale(1.4,1.4);
+        opacity: 1;
+    }
+    12.5%{
+    	transform: scale(1.5,1.5);
+>>>>>>> 6c6d879fabca16c671dd9a77a12242cfb3624715
         opacity: 0;
     }
     100% {
