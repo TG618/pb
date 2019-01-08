@@ -368,7 +368,7 @@ body {
 /*	border: #96c2f1 solid 2px;*/
     border-radius: 30px;
     height: 500px;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 #text .textbanner li h4{
@@ -377,7 +377,7 @@ body {
     text-align:center;
     z-index: -3;
     padding-bottom: 50px;
-    padding-top: 4%;
+    padding-top: 3%;
     margin: auto auto;
     left: 0;
     right: 0;
