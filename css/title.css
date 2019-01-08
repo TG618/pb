@@ -341,16 +341,7 @@ body {
 	width: 340px;
 	
 }
-#text .textcell{
-	color: #F08080;
- font-family: "黑体";
- width: 500px;
- font-size: 50px;
- z-index: -1;
- position: absolute;
- top:100px;
- text-align: center;
-}
+
 #text{
 	z-index: -4;
 	width: 100%;
@@ -361,19 +352,27 @@ body {
     
 }
 #text .textcell{
+   color: #F08080;
+   font-family: "黑体";
+   width: 500px;
+   font-size: 50px;
+   z-index: -1;
+   position: absolute;
+   top:100px;
+   text-align: center;
 /*	background-color:#eff7ff;*/
     background: url(../img/textcell.png);
     background-position: center;
 	opacity: 0.8;
-	width: 70%;
+	width: 80%;
 /*	border: #96c2f1 solid 2px;*/
-    border-radius: 10px;
+    border-radius: 60px;
     height: 500px;
     padding-top: 5%;
 }
 
 #text .textbanner li h4{
-	max-width: 50%;
+	max-width: 60%;
 	position:fixed;
     text-align:center;
     z-index: -3;
