@@ -373,7 +373,7 @@ body {
 
 #text .textbanner li h4{
 	max-width: 70%;
-	position:fixed;
+	position:absolute;
     text-align:center;
     z-index: -3;
     padding-bottom: 50px;
