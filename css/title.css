@@ -2,6 +2,7 @@ html {
     min-height: 100%;
 }
 body {
+	cursor:url('../img/mouse1.cur'),url('../img/mouse1.cur'),auto;
     height: 100%;
 }
 
@@ -343,6 +344,7 @@ body {
 }
 
 #text{
+	height:460px;
 	z-index: -4;
 	width: 100%;
     display: flex;
@@ -354,7 +356,6 @@ body {
 #text .textcell{
    color: #F08080;
    font-family: "黑体";
-   width: 500px;
    font-size: 50px;
    z-index: -1;
    position: absolute;
@@ -362,17 +363,17 @@ body {
    text-align: center;
 /*	background-color:#eff7ff;*/
     background: url(../img/textcell.png);
-    background-position: center;
-	opacity: 0.8;
+    background-position: center center;
+	opacity: 0.6;
 	width: 80%;
 /*	border: #96c2f1 solid 2px;*/
-    border-radius: 30px;
-    height: 600px;
+    border-radius: 60px;
+    height: 550px;
     padding-top: 3%;
 }
 
 #text .textbanner li h4{
-	max-width: 70%;
+	max-width: 60%;
 	position:absolute;
     text-align:center;
     z-index: -3;
@@ -432,3 +433,36 @@ body {
     -moz-animation-delay: 90s;
     animation-delay: 90s;
 }
+#button{
+	z-index: 0;
+	color: #F08080;
+	max-width: 250px;
+    height: 50px;
+	margin:0 auto;
+	position:relative;
+    text-align: center;
+    background-color:#F08080;
+    border-radius: 8px;
+    padding-top: 3px;
+    transition: 0.5s;
+}
+#button a{
+	cursor:url('../img/mouse1.cur'),url('../img/mouse1.cur'),auto;
+	font-size: 2em;
+	color: white;
+}
+#button:hover{
+	transform: scale(1.2,1.2);
+	background-color:#FF7F50;
+}
+#button:active{
+	cursor:url('../img/mouse1.cur'),url('../img/mouse1.cur'),auto;
+	background-color: #FFC0CB;
+	
+}
+
+
+
+
+
+
